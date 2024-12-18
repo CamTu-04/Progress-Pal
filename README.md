@@ -1,4 +1,4 @@
-# Progress Pal- Web quản lý, theo dõi hành trình học 
+# Progress Pal- Ứng dụng quản lý, theo dõi hành trình học 
 # Thành viên nhóm 
 - Trần Mai Anh
 - Trần Thị Mến
