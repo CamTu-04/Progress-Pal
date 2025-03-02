@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GPA</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: url('image/bg7.jpg') no-repeat center center fixed;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #c0392b;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    .container {
+      display: flex;
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .left-column {
+      flex: 1;
+      margin-right: 20px;
+      padding: 20px;
+      background-color: bisque;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .right-column {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .box {
+      background-color: bisque;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.2s;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .box:hover {
+      transform: translateY(-5px);
+    }
+    .box h2 {
+      margin-top: 0;
+      font-size: 1.5em;
+      color: #c0392b;
+    }
+    .box p {
+      margin-bottom: 0;
+      font-size: 1em;
+      line-height: 1.5;
+      color: #333; /* Đảm bảo màu chữ là tối */
+    }
+    .box a{
+      color: #c0392b;
+      font-weight: bold;
+    }
+    /* Loại bỏ gạch chân từ các liên kết */
+    a {
+      text-decoration: none; /* Loại bỏ gạch chân */
+      color: inherit; /* Giữ màu chữ giống với màu văn bản xung quanh */
+    }
+    .back-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #1E90FF; /* Màu xanh biển */
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+      margin-top: 20px; /* Khoảng cách phía trên nút */
+      text-align: center;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+
+  .back-button:hover {
+      background-color: #1C86EE; /* Màu xanh biển đậm hơn khi hover */
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>GPA</h1>
+    <p>Tính điểm tín chỉ và mục tiêu</p>
+  </header>
+  <div class="container">
+    <div class="left-column">
+      <div class="box">
+        <h2>Giới thiệu</h2>
+        <p>Progress-Pal là ứng dụng tính điểm trung bình tích lũy theo tín chỉ. Nó sẽ giúp bạn đưa ra được mục tiêu cụ thể để bạn có thể dễ dàng biết được mình cần cố gắng thêm bao nhiêu tín chỉ A, B nữa!</p>
+      </div>
+    </div>
+    <div class="right-column">
+      <div class="box">
+        <a href="result/result.html" class="box">Kết quả học tập</a>
+        <p>Xem kết quả học tập của bạn.</p>
+      </div>
+      <div class="box">
+        <a href="target/target.html" class="box">Mục tiêu học tập</a>
+        <p>Đặt mục tiêu cho học tập của bạn</p>
+      </div>
+      <div class="box">
+        <a href="statistic/statistic.html" class="box">Thống kê</a>
+        <p>Xem thống kê học tập của bạn.</p>
+      </div>
+    </div>
+  </div>
+  <div>
+    <a href="C:\Users\HP\OneDrive - Trường Đại học Phenikaa\Documents\Progress-Pal\homepage.html" class="back-button">Quay về trang chủ</a>
+  </div>
+</body>
+</html>

@@ -1,6 +1,6 @@
 body {
     background-color:rgb(255, 255, 255);
-    background: url('/static/image/bg5.avif') no-repeat center center fixed;
+    background: url('bg5.avif') no-repeat center center fixed;
     background-size: cover;
     font-family: Arial, sans-serif;
     margin: 0;

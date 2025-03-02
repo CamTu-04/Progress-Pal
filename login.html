@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Login</title>
+    <link rel="stylesheet" href="login/login.css">
+    <style>
+        body{
+            background: url('image/bg6.png') no-repeat center center fixed;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <select id="choose-your-role">
+                <option value="User">You are the user</option>
+                <option value="Admin">You are an administrator</option>
+            </select>
+            <input type="text" placeholder="Username or 10-digit Phone Number" id="username" required>
+            <input type="password" placeholder="Password" id="password" required>
+            <button type="submit">Login</button>
+            <p>or login with</p>
+            <div class="social-login">
+                <button type="button" class="google-btn">Login with Google</button>
+                <button type="button" class="facebook-btn">Login with Facebook</button>
+            </div>
+            <button type="button" id="createAccountBtn">Create an account</button>
+        </form>
+    </div>
+    <script src="login/login.js"></script>
+    <script>
+        document.getElementById("createAccountBtn").addEventListener("click", function() {
+            window.location.href = "/register";
+        });
+    </script>
+</body>
+</html>
