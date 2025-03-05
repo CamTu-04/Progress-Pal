@@ -21,7 +21,7 @@ body {
     margin-left: 30px; /* Đẩy cột bên phải sang trái */
   }
   .info-box {
-    background-color: rgb(196, 47, 196);
+    background-color: #4c5baf;
     border-radius: 5px;
     padding: 5px;
     margin-top: 20px;
@@ -55,10 +55,10 @@ body {
     padding: 10px;
     border: 1px solid #ddd;
     text-align: center; 
-    background-color: plum;
+    background-color:  #4c5baf;
   }
   .table th {
-    background-color: rgb(143, 2, 143);
+    background-color:  #4c5baf;
   }
   .table input {
     width: 100%; /* Chiều rộng ô nhập liệu trong bảng */
@@ -112,7 +112,7 @@ body {
     cursor: pointer;
     color: white; /* Đặt màu chữ thành trắng để dễ đọc trên nền xanh */
     margin-top: 10px;
-    background-color: rgb(113, 7, 113);
+    background-color: #4c5baf;
     text-align: center; /* Căn giữa văn bản theo chiều ngang */
     display: flex; /* Sử dụng Flexbox để căn giữa */
     justify-content: center; /* Căn giữa theo chiều ngang */
@@ -131,13 +131,13 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background-color: rgb(154, 3, 154);
+    background-color: #4c5baf;
 }
 
 .back-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #1E90FF; /* Màu xanh biển */
+    background-color: #4c5baf; /* Màu xanh biển */
     color: white;
     text-decoration: none;
     border-radius: 5px;
